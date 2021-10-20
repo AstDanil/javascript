@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Homework</title>
+  <title>Homework 1</title>
 </head>
 <body>
 <!--
@@ -22,11 +22,11 @@
 <script>
   "use strict";
 
-  const c = prompt('Введите градусы:');
+  const c = +prompt('Введите градусы:');
 
   const f = (9 / 5) * c + 32;
 
-  alert(`Цельсий: ${c}, Фаренгейт: ${f}`);
+  alert(`Цельсий: ${c}, Фаренгейт: ${Math.round(f * 100) / 100 }`);
 
 </script>
 </body>
